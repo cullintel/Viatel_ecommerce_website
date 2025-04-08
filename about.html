@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Free Network Consultance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    
+    <section id="header">
+        <a href="Index.html"><img src="Viatel web assets/Logo/Viatel solutions.png" class="Logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="Index.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="Contacts.html">Contacts</a></li> 
+            
+
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+  
+    </section>
+
+    <section id="hero" class="hero-background">
+        <h2>About us</h2>
+        <p> Welcome to Viatel Solutions, your one-stop destination for all your office product needs. 
+            We specialize in providing high-quality office supplies, including state-of-the-art networking equipment, 
+            ergonomic furniture, and essential office stationery. Our mission is to enhance your workplace efficiency 
+            and comfort by offering products that meet the highest standards of quality and innovation. 
+            With a commitment to exceptional customer service and competitive pricing, Viatel Solutions is dedicated 
+            to helping businesses of all sizes create productive and inspiring work environments. 
+            Trust us to deliver the best solutions for your office needs, backed by our expert installation and </p>
+        
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box pop-up-element">
+            <img src="Viatel web assets/feat Images/f1(Free Delivery)/Mototr Delivery.jpg">
+            <h6>Free Delivery</h6>
+        </div>
+        <div class="fe-box pop-up-element">
+            <img src="Viatel web assets/feat Images/f2(clean packaging)/Packaging Icon.png">
+            <h6>clean packaging</h6>
+        </div>
+        <div class="fe-box pop-up-element">
+            <img src="Viatel web assets/feat Images/f3(customer support)/24 seven customer support.png">
+            <h6>customer support</h6>
+        </div>
+        <div class="fe-box pop-up-element">
+            <img src="Viatel web assets/feat Images/f4(save money)/Money Icon.png">
+            <h6>save Money</h6>
+        </div>
+        <div class="fe-box pop-up-element">
+            <img src="Viatel web assets/feat Images/f5(brand deals)/Brand shake Icon.png">
+            <h6>Brand Deals</h6>
+        </div>
+        <div class="fe-box pop-up-element">
+            <img src="Viatel web assets/feat Images/f6(Mail and news letter)/2124214_down_email_app_essential_arrow_icon.png">
+            <h6>Mails and News-Letters</h6>
+        </div>
+    </section>
+
+
+    <section id="newsletter" class="section-p1">
+        <div class="newstext">
+            <h4>Sign up for our Weekly newsletter</h4>
+            <p>Get Email updates about our next shipment and <span>latest releases</span> .</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button>sign up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="footer-logo" src="Viatel web assets/Logo/Viatel solutions.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> house 3rd Floor,P.O Box 5311400200 Nairobi</p>
+            <p><strong>Tel:</strong>0202018919</p>
+        </div>
+        <div class="copyright">
+            <p>@2025.Viatel Office Solutions</p>
+            <p>All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const elements = document.querySelectorAll('.pop-up-element');
+        
+            function checkPosition() {
+                elements.forEach(element => {
+                    const position = element.getBoundingClientRect();
+                    if (position.top < window.innerHeight && position.bottom >= 0) {
+                        element.classList.add('pop-up');
+                    }
+                });
+            }
+        
+            window.addEventListener('scroll', checkPosition);
+            checkPosition(); // Initial check
+        });
+        </script>
+
+</body>
+</html>

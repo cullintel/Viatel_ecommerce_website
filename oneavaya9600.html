@@ -1,0 +1,149 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Free Network Consultance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="Index.html"><img src="Viatel web assets/Logo/Viatel solutions.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a a class="active" href="product.html">Products</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+                 
+                
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+            
+        </div>
+        
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <!-- Left side - Product Image -->
+        <div class="left-side">
+            <img src="Viatel web assets/Avaya Products/Avaya Ip Telephones/avaya 9600 series.jpg" width=100% id="MainImg">
+        </div>
+
+        <!-- Right side - Product details -->
+        <div class="right-side">
+                <h6>avaya/ Ip Telephones</h6>
+                <h4>Huawei avaya 9600 series</h4>
+                <h2>Ksh 7500</h2>
+                
+                <select>
+                    <option>Select type</option>
+                    <option>Single</option>
+                    <option>complex</option>
+                    <option>Ultra</option>
+                </select>
+
+                <input type="number" value="1">
+                <button class="normal">Add To Cart</button>
+                
+        </div>    
+    </section>
+
+
+    
+    
+
+    
+
+    <section id="newsletter" class="section-p1">
+        <div class="newstext">
+            <h4>Sign Up for our Product Briefs</h4>
+            <p>Get Email updates about our next shipment and <span>latest releases</span> .</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button>sign up</button>
+        </div>
+    </section>
+
+    
+    <button class="open_cart_btn">🛒</button>
+    <div class="cartTab">
+        <h1>Your Order</h1>
+        
+        <div class="listcart">
+
+            <!--
+            <div class="product">
+
+                <div class="product_img">
+                    <img src="Viatel web assets/Cisco Switches/cisco 9300 Catalyst cisco switch.jpg" alt="">
+                </div>
+
+                <div class="product_name">
+                        <h4>Cisco 9300 Catalyst</h4>
+                </div>
+
+                <div class="product_price">
+                    <p>Ksh 7500</p>
+                </div>
+
+                <div class="quantity">
+                    <span class="minus"><</span>
+                    <span>1</span>
+                    <span class="plus">></span>
+                </div>
+
+                
+
+
+                
+
+            </div>
+            -->
+
+        </div>
+
+        <div class="btn">
+            <button class="cart_close_btn">Close</button>
+            <button class="cart_check_btn">Check Out</button>
+        </div>
+       
+
+
+    </div>
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="footer-logo" src="Viatel web assets/Logo/Viatel solutions.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> house 3rd Floor,P.O Box 5311400200 Nairobi</p>
+            <p><strong>Tel:</strong>0202018919</p>
+        </div>
+        <div class="copyright">
+            <p>@2025.Viatel Office Solutions</p>
+            <p>All rights reserved</p>
+        </div>
+    </footer>
+
+
+
+    <script src="scroll-animation.js"></script>
+    <script src="script.js"></script>
+    <script src="filter.js"></script>
+    <script src="cart.js"></script>
+
+    <script>
+        document.querySelector('.open_cart_btn').addEventListener('click', () => {
+            document.querySelector('.cartTab').classList.add('open');
+        });
+    </script>
+
+
+</body>
+</html>
